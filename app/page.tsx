@@ -1,7 +1,7 @@
 import Navbar from '@/components/layout/Navbar';
 import Hero from '@/components/home/Hero';
 import Services from '@/components/home/Services';
-import Experience from '@/components/home/Experience';
+// import Experience from '@/components/home/Experience';
 import WhyHireMe from '@/components/home/WhyHireMe';
 import Portfolio from '@/components/home/Portfolio';
 import Testimonials from '@/components/home/Testimonials';
@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Services />
-      <Experience />
+      {/* <Experience /> */}
       <WhyHireMe />
       <Portfolio />
       <Testimonials />
