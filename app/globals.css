@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-outfit), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #FD853A;
+  --color-dark-bg: #111111;
+  --color-dark-surface: #1C1C1C;
+}
+
+:root {
+  --foreground: #111111;
+  --background: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+.primary-gradient {
+  background: linear-gradient(135deg, #FD853A 0%, #FF9F5F 100%);
+}
