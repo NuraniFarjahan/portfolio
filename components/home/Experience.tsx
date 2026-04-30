@@ -5,22 +5,22 @@ import { motion } from 'motion/react';
 
 const experiences = [
   {
-    company: 'Cognizant, Mumbai',
-    period: 'Sep 2016 - July 2020',
-    role: 'Experience Designer',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales',
+    company: 'Tech Solutions Inc., Dhaka',
+    period: 'Jan 2020 - Dec 2021',
+    role: 'Junior MERN Developer',
+    description: 'Developed and maintained full-stack web applications using MongoDB, Express, React, and Node.js. Collaborated with the team to deliver scalable solutions and optimize database performance.',
   },
   {
-    company: 'Sugee Pvt limited, Mumbai',
-    period: 'Sep 2020 - July 2023',
-    role: 'UI/UX Designer',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales',
+    company: 'Digital Innovations Ltd., Dhaka',
+    period: 'Jan 2022 - Present',
+    role: 'Senior MERN Stack Developer',
+    description: 'Leading development of complex enterprise applications. Architected RESTful APIs, implemented real-time features, and mentored junior developers on best practices.',
     active: true,
   },
   {
-    company: 'Cinetstox, Mumbai',
-    period: 'Sep 2023',
-    role: 'Lead UX Designer',
+    company: 'Freelance Full-Stack Developer',
+    period: 'Ongoing',
+    role: 'Independent Contractor',
     description: '',
   },
 ];

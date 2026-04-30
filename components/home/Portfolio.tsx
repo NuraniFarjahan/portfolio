@@ -5,22 +5,22 @@ import { motion, AnimatePresence } from 'motion/react';
 import Image from 'next/image';
 import { ArrowUpRight } from 'lucide-react';
 
-const categories = ['Landing Page', 'Product Design', 'Animation', 'Glassmorphism', 'Cards'];
+const categories = ['E-Commerce', 'Social Network', 'Real Estate', 'Dashboard', 'Chat App'];
 
 const projects = [
   {
     id: 1,
-    title: 'Lirante - Food Delivery Solution',
-    category: 'Landing Page',
+    title: 'TechMart - E-Commerce Platform',
+    category: 'E-Commerce',
     image: 'https://picsum.photos/seed/food/800/600',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.'
+    description: 'Full-stack e-commerce platform with product catalog, shopping cart, payment integration, and admin dashboard. Built with React for responsive UI, Node.js for API, and MongoDB for data management.'
   },
   {
     id: 2,
-    title: 'Smart Home App',
-    category: 'Product Design',
+    title: 'ConnectHub - Social Network App',
+    category: 'Social Network',
     image: 'https://picsum.photos/seed/home/800/600',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum ligula a dignissim.'
+    description: 'Social networking application with user profiles, real-time messaging, and post sharing features using WebSocket for live updates.'
   }
 ];
 
@@ -31,8 +31,8 @@ export default function Portfolio() {
     <section id="project" className="py-24 px-6 lg:px-20 max-w-7xl mx-auto">
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16">
         <h2 className="text-4xl md:text-5xl font-display font-medium">
-          Lets have a look at <br />
-          my <span className="text-primary italic">Portfolio</span>
+          Check out my latest <br />
+          <span className="text-primary italic">Projects</span>
         </h2>
         <button className="bg-primary text-white font-bold px-8 py-3 rounded-full hover:bg-opacity-90 transition-all self-start">
           See All
@@ -44,7 +44,7 @@ export default function Portfolio() {
         <div className="relative aspect-[16/9] rounded-[32px] overflow-hidden group">
           <Image src="https://picsum.photos/seed/proj1/1000/600" alt="Portfolio 1" fill className="object-cover" referrerPolicy="no-referrer" />
           <div className="absolute bottom-8 left-8 text-white">
-            <h3 className="text-4xl font-bold font-display opacity-80">Lirante</h3>
+            <h3 className="text-4xl font-bold font-display opacity-80">TechMart</h3>
           </div>
           <div className="absolute top-6 right-6 w-12 h-12 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
             <ArrowUpRight className="text-black" />
@@ -53,7 +53,7 @@ export default function Portfolio() {
         <div className="relative aspect-[16/9] rounded-[32px] overflow-hidden group">
           <Image src="https://picsum.photos/seed/proj2/1000/600" alt="Portfolio 2" fill className="object-cover" referrerPolicy="no-referrer" />
           <div className="absolute bottom-8 left-8 text-white">
-            <h3 className="text-4xl font-bold font-display opacity-80">Lirante</h3>
+            <h3 className="text-4xl font-bold font-display opacity-80">ConnectHub</h3>
           </div>
           <div className="absolute top-6 right-6 w-12 h-12 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
             <ArrowUpRight className="text-black" />

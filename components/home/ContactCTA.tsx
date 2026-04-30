@@ -8,8 +8,8 @@ export default function ContactCTA() {
   return (
     <section id="contact" className="py-24 px-6 lg:px-20 max-w-5xl mx-auto text-center">
       <h2 className="text-4xl md:text-6xl font-display font-medium mb-12">
-        Have an Awsome Project <br />
-        Idea? <span className="text-primary italic">Let&apos;s Discuss</span>
+        Have an Amazing Project <br />
+        Idea? <span className="text-primary italic">Let&apos;s Build It</span>
       </h2>
 
       <div className="relative mb-16">
@@ -31,15 +31,15 @@ export default function ContactCTA() {
       <div className="flex flex-wrap justify-center gap-10 md:gap-20">
          <div className="flex items-center gap-2">
             <Star className="text-black w-5 h-5 fill-black" />
-            <span className="font-bold text-sm">4.9/5 Average Ratings</span>
+            <span className="font-bold text-sm">4.9/5 Client Ratings</span>
          </div>
          <div className="flex items-center gap-2">
             <Award className="text-black w-5 h-5" />
-            <span className="font-bold text-sm">25+ Winning Awards</span>
+            <span className="font-bold text-sm">MERN Stack Expert</span>
          </div>
          <div className="flex items-center gap-2">
             <CheckCircle className="text-black w-5 h-5" />
-            <span className="font-bold text-sm">Certified Product Designer</span>
+            <span className="font-bold text-sm">Full-Stack Developer</span>
          </div>
       </div>
     </section>

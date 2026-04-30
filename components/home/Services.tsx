@@ -7,18 +7,18 @@ import { ArrowUpRight } from 'lucide-react';
 
 const services = [
   {
-    title: 'UI/UX Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate.',
+    title: 'Full Stack Development',
+    description: 'End-to-end web application development using MongoDB, Express, React, and Node.js. I build scalable, secure, and high-performance applications tailored to your business needs.',
     image: 'https://picsum.photos/seed/ui/600/400',
   },
   {
-    title: 'Web Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate.',
+    title: 'Backend Development',
+    description: 'Robust server-side solutions with Node.js and Express. I design RESTful APIs, handle databases, and implement authentication and security best practices.',
     image: 'https://picsum.photos/seed/web/600/400',
   },
   {
-    title: 'Landing Page',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate.',
+    title: 'Frontend Development',
+    description: 'Interactive and responsive user interfaces with React. I create modern, user-friendly designs with smooth animations and optimal performance.',
     image: 'https://picsum.photos/seed/landing/600/400',
   },
 ];
@@ -35,7 +35,7 @@ export default function Services() {
           </div>
           <div className="max-w-sm">
              <p className="text-gray-400 text-sm leading-relaxed">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales
+               Comprehensive MERN stack solutions tailored to bring your ideas to life. From concept to deployment, I ensure quality, performance, and user satisfaction.
              </p>
           </div>
         </div>

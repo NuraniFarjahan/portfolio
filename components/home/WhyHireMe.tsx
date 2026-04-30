@@ -17,7 +17,7 @@ export default function WhyHireMe() {
         <div className="relative w-full max-w-md aspect-[4/5] rounded-[40px] overflow-hidden">
            <Image 
              src="https://picsum.photos/seed/jenny2/800/1000" 
-             alt="Jenny Working" 
+             alt="Nurani Farjahan" 
              fill
              className="object-cover"
              referrerPolicy="no-referrer"
@@ -38,17 +38,17 @@ export default function WhyHireMe() {
           Why <span className="text-primary italic">Hire me</span>?
         </h2>
         <p className="text-gray-500 mb-12 text-sm leading-relaxed max-w-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          I specialize in building scalable, high-performance web applications with modern technologies. With expertise in MERN stack development, I deliver robust solutions that meet your business requirements while ensuring code quality and user satisfaction.
         </p>
 
         <div className="grid grid-cols-2 gap-10 mb-12">
           <div>
-            <h3 className="text-4xl font-display font-bold mb-1">450+</h3>
-            <p className="text-gray-400 text-sm">Project Completed</p>
+            <h3 className="text-4xl font-display font-bold mb-1">50+</h3>
+            <p className="text-gray-400 text-sm">Projects Completed</p>
           </div>
           <div>
-            <h3 className="text-4xl font-display font-bold mb-1">450+</h3>
-            <p className="text-gray-400 text-sm">Project Completed</p>
+            <h3 className="text-4xl font-display font-bold mb-1">100%</h3>
+            <p className="text-gray-400 text-sm">Client Satisfaction</p>
           </div>
         </div>
 

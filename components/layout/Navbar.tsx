@@ -37,9 +37,9 @@ export default function Navbar() {
       >
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-            <span className="text-white font-bold text-xs">J</span>
+            <span className="text-white font-bold text-xs">NF</span>
           </div>
-          <span className="text-white font-bold tracking-wider text-xl">JCREA</span>
+          <span className="text-white font-bold tracking-wider text-xl">NURANI</span>
         </div>
 
         <div className="hidden md:flex items-center gap-8">

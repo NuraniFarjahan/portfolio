@@ -21,12 +21,12 @@ export default function Footer() {
           <div className="md:col-span-4 flex flex-col gap-6">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-white font-bold text-xs">J</span>
+                <span className="text-white font-bold text-xs">NF</span>
               </div>
-              <span className="text-white font-bold tracking-wider text-xl">JCREA</span>
+              <span className="text-white font-bold tracking-wider text-xl">NURANI</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.
+              Full-Stack MERN Developer specializing in scalable web applications. I build modern, efficient, and user-friendly solutions for your business needs.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin, Github].map((Icon, i) => (
@@ -51,9 +51,9 @@ export default function Footer() {
           <div className="md:col-span-2">
             <h4 className="font-bold mb-8">Contact</h4>
             <div className="flex flex-col gap-4 text-gray-400 text-sm">
-              <p>+91 7738443636</p>
-              <p>Jaycrea36@gmail.com</p>
-              <p>Portfolio-jcrea.com</p>
+              <p>+88 01XXXXXXXXX</p>
+              <p>nurani@example.com</p>
+              <p>nurani-dev.com</p>
             </div>
           </div>
 
@@ -73,7 +73,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-10 flex flex-col md:flex-row justify-between items-center gap-6 text-gray-400 text-xs font-bold uppercase tracking-widest">
-           <p>Copyright© 2023 Jayesh. All Rights Reserved.</p>
+           <p>Copyright© 2024 Nurani Farjahan. All Rights Reserved.</p>
            <div className="flex gap-8">
              <Link href="#" className="hover:text-white transition-colors">User Terms & Conditions</Link>
              <span>|</span>

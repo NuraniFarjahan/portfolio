@@ -5,16 +5,16 @@ import { motion } from 'motion/react';
 import { Sparkles } from 'lucide-react';
 
 const bannerItems = [
-  'UI/UX Design',
-  'App Design',
-  'Dashboard',
-  'Wireframe',
-  'User Research',
-  'UI/UX Design',
-  'App Design',
-  'Dashboard',
-  'Wireframe',
-  'User Research',
+  'React Development',
+  'Node.js Backend',
+  'MongoDB Database',
+  'API Design',
+  'Full Stack Development',
+  'React Development',
+  'Node.js Backend',
+  'MongoDB Database',
+  'API Design',
+  'Full Stack Development',
 ];
 
 export default function MovingBanner() {

@@ -13,8 +13,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: 'Jenny | Product Designer Portfolio',
-  description: 'Professional portfolio of Jenny, a Product Designer with 10 years of experience.',
+  title: 'Nurani Farjahan | MERN Stack Developer Portfolio',
+  description: 'Professional portfolio of Nurani Farjahan, a Full-Stack MERN Developer specializing in scalable web applications.',
 };
 
 export default function RootLayout({

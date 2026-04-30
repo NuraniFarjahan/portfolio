@@ -7,25 +7,25 @@ import { ArrowUpRight } from 'lucide-react';
 
 const blogs = [
   {
-    title: 'Design Unraveled: Behind the Scenes of UI/UX Magic',
-    tag: 'UI/UX Design',
-    author: 'Jayesh Patil',
-    date: '10 Nov, 2023',
+    title: 'Building Scalable E-Commerce Platforms with MERN Stack',
+    tag: 'Full-Stack Development',
+    author: 'Nurani Farjahan',
+    date: '15 Apr, 2024',
     image: 'https://picsum.photos/seed/blog1/800/600',
   },
   {
-    title: 'Sugee: Loan Management System for Rural Sector.',
-    tag: 'App Design',
-    author: 'Jayesh Patil',
-    date: '09 Oct, 2023',
+    title: 'Real-Time Chat Application: WebSocket Integration Guide',
+    tag: 'Backend Development',
+    author: 'Nurani Farjahan',
+    date: '08 Apr, 2024',
     image: 'https://picsum.photos/seed/blog2/800/600',
     color: '#00845B'
   },
   {
-    title: 'Cinetrade: Innovative way to invest in Digital Media',
-    tag: 'App Design',
-    author: 'Jayesh Patil',
-    date: '13 Aug, 2023',
+    title: 'Optimizing React Performance: Best Practices & Techniques',
+    tag: 'Frontend Development',
+    author: 'Nurani Farjahan',
+    date: '01 Apr, 2024',
     image: 'https://picsum.photos/seed/blog3/800/600',
   },
 ];

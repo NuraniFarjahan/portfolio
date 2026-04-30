@@ -30,8 +30,8 @@ export default function Hero() {
         transition={{ duration: 0.5, delay: 0.1 }}
         className="text-5xl md:text-7xl lg:text-8xl font-display font-medium text-center leading-tight mb-12"
       >
-        I&apos;m <span className="text-primary italic">Jenny</span>, <br />
-        Product Designer
+        I&apos;m <span className="text-primary italic">Nurani Farjahan</span>, <br />
+        MERN Stack Developer
       </motion.h1>
 
       <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-3 items-center gap-10 md:gap-4">
@@ -45,7 +45,7 @@ export default function Hero() {
           <div className="relative">
              <span className="text-5xl text-gray-300 font-serif absolute -top-4 -left-2">&quot;</span>
              <p className="text-gray-600 max-w-[240px] relative z-10 pl-2">
-               Jenny&apos;s Exceptional product design ensure our website&apos;s success. Highly Recommended
+               Nurani&apos;s expertise in MERN stack development transformed our application. Highly Recommended
              </p>
           </div>
         </motion.div>
@@ -64,7 +64,7 @@ export default function Hero() {
                {/* Using a placeholder for the person image */}
                <Image 
                  src="https://picsum.photos/seed/jenny/800/1000" 
-                 alt="Jenny"
+                 alt="Nurani Farjahan"
                  fill
                  className="object-cover object-top"
                  referrerPolicy="no-referrer"
@@ -96,8 +96,8 @@ export default function Hero() {
             ))}
           </div>
           <div>
-            <h3 className="text-4xl font-display font-bold">10 Years</h3>
-            <p className="text-gray-500 uppercase tracking-widest text-xs font-bold">Experience</p>
+            <h3 className="text-4xl font-display font-bold">4+ Years</h3>
+            <p className="text-gray-500 uppercase tracking-widest text-xs font-bold">MERN Development</p>
           </div>
         </motion.div>
       </div>

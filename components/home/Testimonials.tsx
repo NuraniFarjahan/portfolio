@@ -7,17 +7,17 @@ import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Jayesh Patil',
-    role: 'CEO, Lirante',
+    name: 'Karim Ahmed',
+    role: 'CEO, TechStart Bangladesh',
     rating: 5,
-    text: 'consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.',
+    text: 'Nurani\'s MERN stack expertise helped us build a scalable e-commerce platform. Her attention to detail and problem-solving skills are exceptional. Highly recommended for any full-stack development project.',
     image: 'https://picsum.photos/seed/p1/100/100',
   },
   {
-    name: 'Jayesh Patil',
-    role: 'CEO, Lirante',
+    name: 'Fatima Khan',
+    role: 'Founder, Digital Ventures',
     rating: 5,
-    text: 'consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.',
+    text: 'Working with Nurani was a game-changer for our project. She implemented real-time features and optimized our database efficiently. Her technical knowledge and communication are outstanding.',
     image: 'https://picsum.photos/seed/p2/100/100',
   },
 ];
@@ -32,11 +32,11 @@ export default function Testimonials() {
 
       <div className="max-w-7xl mx-auto text-center mb-20">
         <h2 className="text-4xl md:text-5xl font-display font-medium mb-6">
-          Testimonials That <br />
-          Speak to <span className="text-primary italic">My Results</span>
+          Client Testimonials <br />
+          About <span className="text-primary italic">My Work</span>
         </h2>
         <p className="text-gray-400 max-w-xl mx-auto text-sm leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.
+          Hear from clients who have experienced my MERN stack development expertise. Their success is my success, and I'm proud of the impact I've made on their projects.
         </p>
       </div>
 
