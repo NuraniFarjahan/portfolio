@@ -96,7 +96,7 @@ export default function Hero() {
             ))}
           </div>
           <div>
-            <h3 className="text-4xl font-display font-bold">4+ Years</h3>
+            <h3 className="text-4xl font-display font-bold">1+ Year</h3>
             <p className="text-gray-500 uppercase tracking-widest text-xs font-bold">MERN Development</p>
           </div>
         </motion.div>

@@ -19,10 +19,10 @@ export default function Home() {
       {/* <Experience /> */}
       <WhyHireMe />
       <Portfolio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <ContactCTA />
       <MovingBanner />
-      <Blog />
+      {/* <Blog /> */}
       <Footer />
     </main>
   );
