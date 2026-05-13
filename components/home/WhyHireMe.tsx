@@ -24,7 +24,7 @@ export default function WhyHireMe() {
            />
         </div>
         {/* Floating background circle */}
-        <div className="absolute -z-10 -bottom-10 -left-10 w-64 h-64 bg-[#f4a261] rounded-full opacity-30" />
+        <div className="hidden md:block absolute -z-10 -bottom-10 -left-10 w-64 h-64 bg-[#f4a261] rounded-full opacity-30" />
       </motion.div>
 
       <motion.div 

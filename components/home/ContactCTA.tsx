@@ -13,7 +13,7 @@ export default function ContactCTA() {
       </h2>
 
       <div className="relative mb-16">
-        <div className="bg-[#FFF4ED] p-4 rounded-full flex items-center shadow-lg max-w-2xl mx-auto border border-primary/10">
+        <div className="bg-[#FFF4ED] p-4 rounded-full flex flex-col md:flex-row gap-y-3 md:gap-y-0 items-center shadow-lg max-w-2xl mx-auto border border-primary/10">
           <div className="bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center ml-4 shrink-0">
              <Mail className="text-primary w-6 h-6" />
           </div>
